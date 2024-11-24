@@ -44,3 +44,57 @@
     padding: 10px;
     font-size: 15px;
 }
+table{
+    border: 1px solid rgb(224, 228, 231) ;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid rgb(171, 191, 207);
+    padding: 10px;
+}
+th{
+    background-color: #1D174E;
+    color: aliceblue;
+}
+.highlight_header{
+    background-color:#E6E6E6;
+    font-weight: bold;
+    font-size: 25px;
+}
+#read-more {
+    display: none;
+}
+#extra-content{
+    display: none;
+}
+#read-more:checked ~  #extra-content {
+    display: block;
+}
+
+#read-more_1 {
+    display: none;
+}
+#extra-content_1{
+    display: none;
+}
+#read-more_1:checked ~  #extra-content_1 {
+    display: block;
+}
+
+#read-more_2 {
+    display: none;
+}
+#extra-content_2{
+    display: none;
+}
+#read-more_2:checked ~  #extra-content_2 {
+    display: block;
+}
+.footer-content{
+    background-color: #1D174E;
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+}
