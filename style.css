@@ -1,0 +1,23 @@
+.container{
+    font-family: courier;
+    color: aliceblue;
+}
+
+.head{
+    text-align: center;
+    background-color:#1D174E;
+}
+.fa-solid{
+  color: rgb(255, 255, 255);
+}
+.head p{
+    font-size: 20px;
+    padding: 10px;
+}
+.top_news{
+    background-color:#1D174E;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
