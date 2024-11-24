@@ -1,5 +1,6 @@
 .container{
     font-family: courier;
+    background-color:rgb(243, 243, 243);
 }
 .date{
     color: gray;
@@ -98,4 +99,7 @@ th{
     padding: 10px;
     text-align: center;
 }
-
+.btn{
+    background-color: rgb(202, 33, 33);
+    border-radius: 10px;
+}
